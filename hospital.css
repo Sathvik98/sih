@@ -1,0 +1,47 @@
+body {
+    margin: 0%; 
+    padding: 0%; 
+}
+
+#root {
+    margin: 0%; 
+    padding: 0%; 
+}
+
+#details
+{
+    text-align: left; 
+    margin-left: 3%;
+}
+h1{
+    text-align: left;
+    margin-top: 3%;
+    margin-left: 3%;
+    font-size: 35px;
+    }
+input{
+    border: none;
+    border-bottom:1px solid #000;
+    background: transparent;
+    outline:none;
+    padding: 5px; 
+    width: 300px;
+    height:40px;
+    color:rgb(238, 229, 229);
+    font-size:16px;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    color:white;
+    text-align: left;
+  }
+::placeholder{
+    color: white;
+    text-align: left;
+}
+
+#signout
+{
+    position: absolute;
+    top: 5%;
+    left: 90%;
+}
